@@ -8,7 +8,7 @@
   <packaging>war</packaging>
 
   <properties>
-    <gwt.version>2.7.0-rc1</gwt.version>
+    <gwt.version>2.7.0</gwt.version>
   </properties>
 
   <dependencies>
@@ -48,7 +48,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
-        <version>2.7.0-rc1</version>
+        <version>2.7.0</version>
         <configuration>
           <module>com.github.nmorel.hello.gwtp.HelloGWTP</module>
         </configuration>
